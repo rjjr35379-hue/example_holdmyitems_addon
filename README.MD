@@ -22,12 +22,12 @@ in the libs folder add the jars that YOU just downloaded
 In your build.gradle, add these two lines inside the dependencies block.
 These will implement the mods as dependencies:
 
-implementation files("libs/(HMI NAME).jar")
+modImplementation files("libs/(HMI NAME).jar")
 implementation files("libs/(JSE NAME).jar")
 
 For example, I renamed them for easier use:
 
-implementation files("libs/HMI.jar")
+modImplementation files("libs/HMI.jar")
 implementation files("libs/jse.jar")
 
  That’s all!
